@@ -1,0 +1,38 @@
+{
+  "name": "@a5c-ai/babysitter-hermes",
+  "version": "5.0.1-staging.5c9708469",
+  "description": "Orchestrate complex, multi-step workflows with event-sourced state management, hook-based extensibility, and human-in-the-loop approval",
+  "scripts": {
+    "test": "npm run validate:ci",
+    "test:integration": "node test/integration.test.js",
+    "test:packaged-install": "node test/packaged-install.test.js",
+    "validate:ci": "npm run test:integration && npm run test:packaged-install",
+    "team:install": "node scripts/team-install.js"
+  },
+  "bin": {
+    "babysitter-hermes": "bin/cli.js"
+  },
+  "files": [
+    "hooks/",
+    "hooks.json",
+    "skills/",
+    "bin/",
+    "scripts/",
+    "README.md"
+  ],
+  "keywords": [
+    "babysitter",
+    "hermes",
+    "orchestration"
+  ],
+  "author": "a5c.ai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a5c-ai/babysitter-hermes.git"
+  },
+  "homepage": "https://github.com/a5c-ai/babysitter-hermes#readme",
+  "bugs": {
+    "url": "https://github.com/a5c-ai/babysitter-hermes/issues"
+  }
+}
