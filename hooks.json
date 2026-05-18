@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx -y -p @a5c-ai/hooks-mux-cli -c \"a5c-hooks-mux invoke --adapter hermes --handler 'bash ./hooks/babysitter-proxied-on-event.sh' --json\""
+            "command": "a5c-hooks-mux invoke --adapter hermes --handler \"bash ./hooks/babysitter-proxied-on-event.sh\" --json"
           }
         ]
       }
