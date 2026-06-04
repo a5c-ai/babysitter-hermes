@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "a5c-hooks-mux invoke --adapter hermes --handler \"bash ./hooks/babysitter-proxied-on-event.sh\" --json"
+            "command": "adapters-hooks invoke --adapter hermes --handler \"bash ./hooks/babysitter-proxied-on-event.sh\" --json"
           }
         ]
       }
